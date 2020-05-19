@@ -10,7 +10,7 @@ Prerequisite：Linearly separable
 
 Basic idea is Max Margin Classifier, we have to find the widest road between class1 and class2.
 
-$$
+\begin{align}
 max:margin(w,b)
 \\st.
 \left\{\begin{matrix}
@@ -20,7 +20,7 @@ w^Tx_i +b<0,y_i=-1
 \\
  \Rightarrow y_i(w^{T}x_{i}+b) > 0\\
  \forall i=1,2,...,N
-$$
+\end{align}
 
 1. For the hard margin:
 
